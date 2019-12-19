@@ -60,13 +60,6 @@ VB = airplane.roll_control(B,Vv)
 Sv = airplane.vertical_tail_area(Vv,Lv)
 Sh = airplane.horizontal_tail_area(Vh,Lh)
 
-#output
-print('Wing Area: ',S,' m^2')
-print('Vertical tail area: ', round(Sv,6), 'm^2')
-print('Horizontal tail area: ', round(Sh,6), 'm^2')
-print('Dihedral angle: ',round(gamma,2), ' degree')
-print('VvB = ',round(VB,2))
-
 #Show the realtion Sv/lv
 #------------------------------------------
 V_coef = [0.02 ,0.035 ,0.05]
